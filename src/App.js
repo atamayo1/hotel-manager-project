@@ -56,8 +56,8 @@ function App() {
       </aside>
 
       <footer className="footer">
-        &copy; Máster en React -{" "}
-        <a href="https://victorroblesweb.es">victorroblesweb.es</a>
+        &copy; Hecho por -{" "}
+        <a href="https://www.linkedin.com/in/anthony-tamayo-ortega/">Anthony Tamayo Ortega</a>
       </footer>
     </div>
   );
