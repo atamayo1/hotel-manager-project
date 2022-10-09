@@ -173,9 +173,11 @@ input[type="button"]{
 .lateral input[type="text"],
 .lateral input[type="number"],
 .lateral input[type="date"],
+.lateral input[type="tel"],
 .lateral textarea,
 .edit_form input[type="text"],
-.edit_form input[type="text"],
+.edit_form input[type="number"],
+.edit_form input[type="date"],
 .edit_form textarea
 {
   display: block;
@@ -223,4 +225,9 @@ input[type="button"]{
   .book-item{
       width: 80%;
   }
+}
+
+
+.not-found {
+  color: red;
 }
