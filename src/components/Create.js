@@ -155,8 +155,8 @@ const Create = ({ setData, edit, setEdit, getBooks }) => {
           type="tel"
           id="cellphone"
           name="cellphone"
-          placeholder="+57-312-345-22-99"
-          pattern="[+][0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          placeholder="+573123452299"
+          pattern="[+][0-9]{2}[0-9]{3}[0-9]{3}[0-9]{2}[0-9]{2}"
           defaultValue={edit?.cellphone}
           required
         ></input>
