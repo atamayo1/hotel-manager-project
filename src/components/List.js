@@ -23,7 +23,7 @@ const List = ({ data, setData, setEdit, getBooks }) => {
         data.map((item, index) => (
           <article key={index} className="book-item">
             <h3 className="name">
-              {item.name} {item.lastname}
+              {item.name}{" "}{item.lastname}
             </h3>
             <p className="document">Cédula: {item.document}</p>
             <p className="cellphone">Celular: {item.cellphone}</p>
