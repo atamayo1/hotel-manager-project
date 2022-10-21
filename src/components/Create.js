@@ -55,7 +55,11 @@ const Create = ({ setData, edit, setEdit, getBooks }) => {
     };
     setBookState(book);
     setData((elements) => {
-      return [...elements, book];
+      if(elements !== null){
+        return [...elements, book];
+      }else{
+        return [book];
+      }
     });
     saveStorage("books", book);
   };
@@ -217,7 +221,7 @@ const Create = ({ setData, edit, setEdit, getBooks }) => {
           min={0}
           required
         />
-        <p>
+        <div style={{marginTop: "1em", marginBottom: "1em"}}>
           <label>Fecha Inicial *</label>
           <input
             type="date"
@@ -227,8 +231,8 @@ const Create = ({ setData, edit, setEdit, getBooks }) => {
             defaultValue={edit?.initdate}
             required
           />
-        </p>
-        <p>
+        </div>
+        <div style={{marginTop: "1em", marginBottom: "1em"}}>
           <label>Fecha Final *</label>
           <input
             type="date"
@@ -238,7 +242,7 @@ const Create = ({ setData, edit, setEdit, getBooks }) => {
             defaultValue={edit?.finishdate}
             required
           />
-        </p>
+        </div>
         <input
           type="submit"
           id="save"

@@ -57,7 +57,9 @@ function App() {
 
       <footer className="footer">
         &copy; Hecho por -{" "}
-        <a href="https://www.linkedin.com/in/anthony-tamayo-ortega/">Anthony Tamayo Ortega</a>
+        <a href="https://www.linkedin.com/in/anthony-tamayo-ortega/">
+          Anthony Tamayo Ortega
+        </a>
       </footer>
     </div>
   );

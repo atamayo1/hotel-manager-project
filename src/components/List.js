@@ -97,10 +97,8 @@ const List = ({ data, setData, setEdit, getBooks }) => {
                 <Typography>Fechas</Typography>
               </AccordionSummary>
               <AccordionDetails>
-                <Typography>
                   <p className="initdate">Fecha Inicial: {item.initdate}</p>
                   <p className="finishdate">Fecha Final: {item.finishdate}</p>
-                </Typography>
               </AccordionDetails>
             </Accordion>
 
